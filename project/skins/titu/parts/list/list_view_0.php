@@ -18,10 +18,10 @@
                 <div class="right">
                     <div class="right_t">
 						<span>News</span>
-                        <span> &gt; </span>
-                        <label><?php echo $data['title']; ?></label>
                     </div>
                     <div class="right_b">
+                        <?php echo $data['title']; ?>
+                        <br/><br/>
 						<?php echo $data['content']; ?>
                     </div>
                 </div>

@@ -162,7 +162,7 @@ var swiper1 = new Swiper('.swiper1', {
                     URL: www.fotiles.com<br>
                     Address: <br>
                   <?php echo SITEADDRESS; ?><br>
-                  	<div class="qr"><img src="images/qr.gif" width="186" height="186" /></div>
+                  	<div class="qr"><?php doc_focus('4',1,4,0,0,true,'id',1)?></div>
                  </div>
             </div>
                     </div>

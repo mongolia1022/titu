@@ -45,8 +45,10 @@
         </ul>
     </div>
   <div class="search_all">
-    	<div class="search_txt"><input id="txt_search" type="text"   value="Search what you want..."  onFocus="if(value==defaultValue){value='';this.style.color='#fff'}" onBlur="if(!value){value=defaultValue;this.style.color='#fff'}" style="color:#fff"></div>
+      <form action="<?php echo $tag['form.action.search']; ?>" method="post">
+    	<div class="search_txt"><input name="keyword" id="txt_search" type="text"   value="Search what you want..."  onFocus="if(value==defaultValue){value='';this.style.color='#fff'}" onBlur="if(!value){value=defaultValue;this.style.color='#fff'}" style="color:#fff"></div>
     	<div class="search_btn"><input type="image" src="images/search_btn.png" /></div>
+        </form>
     </div>
     <div class="cnen"><a href="#" class="now">EN</a> / <a href="#">CN</a></div>
 </div>
@@ -99,7 +101,7 @@ $(function(){
         </div>
         <div class="idx_about_txt">
         <?php doc_article('3',0,0,0,0,0,true,true,'id',0)?></div>
-        <div class="idx_about_more"><a href="#">More &gt;</a></div>
+        <div class="idx_about_more"><a href="<?php echo sys_href(23); ?>">More &gt;</a></div>
     </div>
     <div class="idx_hall">
     	<div class="idx_title">
