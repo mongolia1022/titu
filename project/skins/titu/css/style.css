@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size:14px;
+	color:#525252;
+	font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+	background:url(../images/bg.jpg) #8d8b8b;
+}
+
+dl,dt,dd,table,tr,td,th{
+	margin:0;padding:0;border:0px;
+}
+
+img{
+	border:none;
+}
+
+ul{
+	list-style-type:none;
+}
+
+ul,li{
+  margin:0;padding:0;
+}
+
+.clear{
+	clear:both;
+}
+
+input{outline:none;}
+
+a:link {color: #525252;text-decoration: none;}
+a:visited {color: #525252;text-decoration: none;}
+a:hover {color: #04283e;text-decoration: none;}
+a:active {color: #525252;text-decoration: none;}
+
+* html,* html body /* 修正IE6振动bug */{
+background-image:url(about:blank);background-attachment:fixed;
+}
+
+.circle {
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+	position:relative;
+	behavior: url(ie-css3.htc);
+	z-index:99999;
+	overflow:hidden;
+}
+
+.verticalAlign{vertical-align:middle; display:inline-block; height:100%; width:1px; margin-left:-1px;}
+
+a{
+  text-decoration:none; 
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+input{
+  text-decoration:none; 
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+div{
+  text-decoration:none; 
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}

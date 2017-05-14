@@ -1,0 +1,19 @@
+# BEGIN DOCCMS
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [QSA,PT,L]
+#一级目录禁止
+RewriteCond %{REQUEST_URI} ^/(config|content|editor|keditor|inc|setup|skins|temp|upload|xml)(/|)$ [NC]
+RewriteRule .*$ - [F,L]
+#二级以及更深目录禁止
+RewriteCond %{REQUEST_URI} ^/(admini|config|content|editor|keditor|inc|setup|skins|temp|xml)/(.*)[^\.(js|css|gif|jpg|jpeg|png|swf|html|mp3)]$ [NC]
+RewriteRule .*$ - [F,L]
+#禁用php文件 editor xml 除外
+RewriteCond %{REQUEST_URI} ^/(config|content|skins|temp|upload)/.*\.(php|jsp|asp|aspx|cgi|sql|lock)$ [NC]
+RewriteRule .*$ - [F,L]
+RewriteCond %{REQUEST_URI} ^/admini/(.+)[^index|login|html].*\.php$ [NC]
+RewriteRule .*$ - [F,L]
+RewriteCond %{REQUEST_URI} ^/inc/(.+)[^verifycode|lable/lable|lable/lable_edit|pay/alipay|pay/tenpay|models/index].*\.php$ [NC]
+# END DOCCMS

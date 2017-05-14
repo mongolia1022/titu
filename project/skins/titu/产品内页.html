@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="dist/css/swiper.min.css">
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/css.css" />
+<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+
+<!--JQ基础文件-->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+
+<!--IE6 PNG透明-->
+<!--[if lte IE 6]>
+<script src="js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('div, ul, img, li, input , a');
+    </script>
+<![endif]-->
+
+<!-- 放大镜 -->
+<link rel="stylesheet" type="text/css" href="css/magnifier.css">
+<script type="text/javascript" class="library" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" class="library" src="js/jquery.colorbox-min.js"></script>
+<script type="text/javascript" class="library" src="js/magnifier.js"></script>
+
+</head>
+
+<body>
+<!-- Swiper + 导航 -->
+<div class="swiper-container swiper1" style="height:388px;">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background:url(images/banner1.jpg) top center;"></div>
+        <div class="swiper-slide" style="background:url(images/banner1.jpg) top center;"></div>
+        <div class="swiper-slide" style="background:url(images/banner1.jpg) top center;"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="nav">
+    	<ul>
+        	<li><a href="#">Home</a></li>
+        	<li>　　　::　　　</li>
+        	<li><a href="#">About</a></li>
+        	<li>　　　::　　　</li>
+        	<li><a href="#">Products</a></li>
+        	<li>　　<a href="#"><img src="images/logo.png" /></a>　　<span class="verticalAlign"></span></li>
+        	<li><a href="#">News</a></li>
+        	<li>　　　::　　　</li>
+        	<li><a href="#">Join us</a></li>
+        	<li>　　　::　　　</li>
+        	<li><a href="#">Contact us</a></li>
+        </ul>
+    </div>
+  <div class="search_all">
+    	<div class="search_txt"><input id="txt_search" type="text"   value="Search what you want..."  onFocus="if(value==defaultValue){value='';this.style.color='#fff'}" onBlur="if(!value){value=defaultValue;this.style.color='#fff'}" style="color:#fff"></div>
+    	<div class="search_btn"><input type="image" src="images/search_btn.png" /></div>
+    </div>
+    <div class="cnen"><a href="#" class="now">EN</a> / <a href="#">CN</a></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="dist/js/swiper.min.js"></script>
+<!-- Initialize Swiper -->
+
+<script>
+var swiper1 = new Swiper('.swiper1', {
+	pagination: '.swiper-pagination',
+	nextButton: '.swiper-button-next',
+	prevButton: '.swiper-button-prev',
+	paginationClickable: true,
+	spaceBetween: 30,
+	centeredSlides: true,
+	autoplay: 2500,
+	autoplayDisableOnInteraction: false,
+	effect: 'fade'
+});
+</script>
+
+<!--内页-->
+<div class="incenter">
+	<div class="incenter_t"></div>
+    <div class="incenter_in">
+    	<div class="in_page" style="padding-bottom:0;">
+        	
+            <!--产品介绍-->
+            <div class="center_mgt" style="background:none;">
+            
+                <!--产品图片-->
+                <div class="con-FangDa" id="fangdajing">
+                  <div class="con-fangDaIMg">
+                    <!-- 正常显示的图片-->
+                    <img src="images/big/1.jpg">
+                    <!-- 滑块-->  
+                    <div class="magnifyingBegin"></div>
+                    <!-- 放大镜显示的图片 -->
+                    <div class="magnifyingShow"><img src="images/big/1.jpg"></div>
+                  </div>
+                  
+                  <ul class="con-FangDa-ImgList">
+                    <!-- 图片显示列表 -->
+                    <li class="active"><img src="images/thumb/1.jpg" data-bigimg="images/big/1.jpg"></li>
+                    <li><img src="images/thumb/2.jpg" data-bigimg="images/big/2.jpg"></li>
+                    <li><img src="images/thumb/3.jpg" data-bigimg="images/big/3.jpg"></li>
+                    <li><img src="images/thumb/4.jpg" data-bigimg="images/big/4.jpg"></li>
+                    <li><img src="images/thumb/5.jpg" data-bigimg="images/big/5.jpg"></li>
+                  </ul>
+                </div>
+
+                <!--产品文字-->
+                <div class="pro_font">
+                    <div class="pro_font1">product name</div>
+                <div class="pro_font2">PRICE: <span>$1178</span></div>
+                <div class="pro_font3">Introduction</div>
+                    <div class="pro_font4">
+                    product presentation introduction to products product presentation introduction to products product presentation introduction to products product presentation introduction  product presentation introduction <br/>
+                        <span>WEIGHT：50KG</span><br/>
+                        <span>PACKAG：cartons</span><br/>
+                        <span>SIZE：800mm × 800mm</span><br/>
+                        <span>TEXTURE：Imitation stone</span><br/>
+                        <span>GLAZE TECHOLOGY：Bright surface</span><br/>
+                        <span>USE SCENE：Living room, dining room, kitchen, bathroom, balcony, bedroom, entrance, corridor, etc.;</span><br/>
+                        <span>QULIFICATIONS：<br/><img src="images/qlt.jpg" width="264" height="43" /></span><br/>
+                    </div>
+                    
+                </div>
+                
+                <div class="clear"></div>
+                
+                <!--分隔-->
+                <div class="por_in2_line">
+                	<div class="por_in2_line_circle circle iconfont">&#xe602;</div>
+                </div>
+                
+                <!--图文详细介绍-->
+                <div class="por_in2_details">
+                	图文介绍
+                </div>
+                
+                <!--底部分割-->
+                <div class="por_in2_gray">
+                	<div class="por_in2_gray_in">Space application for reference purposes only, please prevail in kind</div>
+                </div>
+                
+                
+            </div>
+            
+            <!--产品滚动-->
+            <div class="por_in2_slide">
+              <div class="por_in2_slide_t">
+                	Similar products recommended
+                	<div class="por_slide_btn_r iconfont"  id="arrRright_01"><a href="###">&#xe615;</a></div>
+                	<div class="por_slide_btn_l iconfont" id="arrLeft_01"><a href="###">&#xe620;</a></div>
+                </div>
+                
+                <div class="por_in2_slide_b" id="arrCont_01">
+                
+                	<ul>
+                        <li> 
+                            <a href="#"><img src="images/pro1.jpg"></a>
+                            <span><a href="#">Porduct name1</a></span>
+                            <label>COD:A258256</label>
+                            
+                        </li>
+                        <li> 
+                            <a href="#"><img src="images/pro1.jpg"></a>
+                            <span><a href="#">Porduct name1</a></span>
+                            <label>COD:A258256</label>
+                            
+                        </li>
+                        <li> 
+                            <a href="#"><img src="images/pro1.jpg"></a>
+                            <span><a href="#">Porduct name1</a></span>
+                            <label>COD:A258256</label>
+                            
+                        </li>
+                        <li> 
+                            <a href="#"><img src="images/pro1.jpg"></a>
+                            <span><a href="#">Porduct name1</a></span>
+                            <label>COD:A258256</label>
+                            
+                        </li>
+                        <li> 
+                            <a href="#"><img src="images/pro1.jpg"></a>
+                            <span><a href="#">Porduct name1</a></span>
+                            <label>COD:A258256</label>
+                            <div class="idx_pro_scene" style="display: none;">
+                                <a href="#">
+                                    <img src="images/pro2.jpg">
+                                    <span>Porduct name1</span>
+                                    <label>COD:A258256</label>
+                                </a>
+                            </div>
+                        </li>
+                        <li> 
+                            <a href="#"><img src="images/pro1.jpg"></a>
+                            <span><a href="#">Porduct name1</a></span>
+                            <label>COD:A258256</label>
+                            <div class="idx_pro_scene" style="display: none;">
+                                <a href="#">
+                                    <img src="images/pro2.jpg">
+                                    <span>Porduct name1</span>
+                                    <label>COD:A258256</label>
+                                </a>
+                            </div>
+                        </li>
+                        <li> 
+                            <a href="#"><img src="images/pro1.jpg"></a>
+                            <span><a href="#">Porduct name1</a></span>
+                            <label>COD:A258256</label>
+                            <div class="idx_pro_scene">
+                                <a href="#">
+                                    <img src="images/pro2.jpg">
+                                    <span>Porduct name1</span>
+                                    <label>COD:A258256</label>
+                                </a>
+                            </div>
+                        </li>
+                        <li> 
+                            <a href="#"><img src="images/pro1.jpg"></a>
+                            <span><a href="#">Porduct name1</a></span>
+                            <label>COD:A258256</label>
+                            <div class="idx_pro_scene">
+                                <a href="#">
+                                    <img src="images/pro2.jpg">
+                                    <span>Porduct name1</span>
+                                    <label>COD:A258256</label>
+                                </a>
+                            </div>
+                        </li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+                
+                <script language="javascript" src="js/common.js"></script>
+
+				<script language="javascript" type="text/javascript">
+					<!--//--><![CDATA[//><!--
+					var focusScroll_01 = new ScrollPic();
+					focusScroll_01.scrollContId	= "arrCont_01"; //内容容器ID
+					focusScroll_01.arrLeftId	  = "arrLeft_01";//左箭头ID
+					focusScroll_01.arrRightId	 = "arrRright_01"; //右箭头ID
+					focusScroll_01.frameWidth	 = 1002;//显示框宽度
+					focusScroll_01.pageWidth	  = 260; //翻页宽度
+					focusScroll_01.upright		= false; //垂直滚动
+					focusScroll_01.speed		  = 20; //移动速度(单位毫秒，越小越快)
+					focusScroll_01.space		  = 20; //每次移动像素(单位px，越大越快)
+					focusScroll_01.autoPlay		= true; //自动播放
+					focusScroll_01.autoPlayTime	= 5; //自动播放间隔时间(秒)
+					focusScroll_01.initialize(); //初始化
+					
+					//--><!]]>
+                </script>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- 版权信息 -->
+<div class="copyright">
+	<div class="copyright_in">
+    	<div class="bottom_logo">
+        	<a href="#"><img src="images/bottom_logo.png" /></a>
+            <em class="verticalAlign"></em>
+        </div>
+      <div class="bottom_font">
+        	<a href="#">Home</a>　　　　<a href="#">About</a>　　　　<a href="#">Products</a>　　　　<a href="#">Projects</a>　　　　<a href="#">News</a>　　　　<a href="#">Join us</a>　　　　<a href="#">Contact us</a><br/>
+        © 2013 Foshan Fotiles Ceramics Co.,Ltd.  QQ:<a class="gray" href="#">2534818703</a> </div>
+      <div class="bottom_qr">
+      	<img src="images/qr.jpg" width="96" height="96" />
+        <span>TITU-BTP</span>
+      </div>
+      <div class="bottom_qr">
+      	<img src="images/qr2.jpg" width="96" height="96" />
+        <span>TITU</span>
+      </div>
+  </div>
+</div>
+
+</body>
+</html>

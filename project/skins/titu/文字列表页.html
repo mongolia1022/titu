@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="dist/css/swiper.min.css">
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/css.css" />
+<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+
+<!--JQ基础文件-->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+
+<!--IE6 PNG透明-->
+<!--[if lte IE 6]>
+<script src="js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('div, ul, img, li, input , a');
+    </script>
+<![endif]-->
+
+</head>
+
+<body>
+<!-- Swiper + 导航 -->
+<div class="swiper-container swiper1" style="height:388px;">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background:url(images/banner1.jpg) top center;"></div>
+        <div class="swiper-slide" style="background:url(images/banner1.jpg) top center;"></div>
+        <div class="swiper-slide" style="background:url(images/banner1.jpg) top center;"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="nav">
+    	<ul>
+        	<li><a href="#">Home</a></li>
+        	<li>　　　::　　　</li>
+        	<li><a href="#">About</a></li>
+        	<li>　　　::　　　</li>
+        	<li><a href="#">Products</a></li>
+        	<li>　　<a href="#"><img src="images/logo.png" /></a>　　<span class="verticalAlign"></span></li>
+        	<li><a href="#">News</a></li>
+        	<li>　　　::　　　</li>
+        	<li><a href="#">Join us</a></li>
+        	<li>　　　::　　　</li>
+        	<li><a href="#">Contact us</a></li>
+        </ul>
+    </div>
+  <div class="search_all">
+    	<div class="search_txt"><input id="txt_search" type="text"   value="Search what you want..."  onFocus="if(value==defaultValue){value='';this.style.color='#fff'}" onBlur="if(!value){value=defaultValue;this.style.color='#fff'}" style="color:#fff"></div>
+    	<div class="search_btn"><input type="image" src="images/search_btn.png" /></div>
+    </div>
+    <div class="cnen"><a href="#" class="now">EN</a> / <a href="#">CN</a></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="dist/js/swiper.min.js"></script>
+<!-- Initialize Swiper -->
+
+<script>
+var swiper1 = new Swiper('.swiper1', {
+	pagination: '.swiper-pagination',
+	nextButton: '.swiper-button-next',
+	prevButton: '.swiper-button-prev',
+	paginationClickable: true,
+	spaceBetween: 30,
+	centeredSlides: true,
+	autoplay: 2500,
+	autoplayDisableOnInteraction: false,
+	effect: 'fade'
+});
+</script>
+
+<!--内页-->
+<div class="incenter">
+	<div class="incenter_t"></div>
+    <div class="incenter_in">
+    	<div class="in_page">
+            <div class="center_mgt">
+                <div class="left">
+                    <div class="left_t">
+                        <span class="left_dot1 left_now"></span>
+                      <label>PRODUCT</label>
+                    </div>
+                    <div class="left_list">
+                        <ul>
+                            <li class="left_current"><a href="#">product list</a></li>
+                            <li><a href="#">product list</a></li>
+                            <li><a href="#">product list</a></li>
+                            <li><a href="#">product list</a></li>
+                            <li><a href="#">product list</a></li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div>
+                    <div class="left_t">
+                        <span class="left_dot2"></span>
+                        <label>Focus US</label>
+                    </div>
+                    <div class="left_list">
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">hot news2</a></li>
+                            <li><a href="#">service</a></li>
+                            <li><a href="#">projects</a></li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div>
+                    <div class="left_t">
+                      <span class="left_dot3"></span>
+                        <label>CONTACT</label>
+                    </div>
+                    <div class="left_list">
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="right_t">
+                        <span>FOCUS US</span>
+                        <span> &gt; </span>
+                        <label>about us</label>
+                    </div>
+                    <div class="right_b">
+                        <div class="news2">
+                            <div class="news2_t">
+                                <div class="news2_t2">TITLE</div>
+                                <div class="news2_t4">TIME</div>
+                            </div>
+                            <div class="news2_list">
+                                <ul>
+                                    <li>
+                                        <div class="news2_list2">
+                                            <label><a href="#">News news2 news2 news2 news2 news2 news2 news2</a></label>
+                                        </div>
+                                        <div class="news2_list4">2016/10/15</div>
+                                    </li>
+                                    <li>
+                                        <div class="news2_list2">
+                                            <label><a href="#">News news2 news2 news2 news2 news2 news2 news2</a></label>
+                                        </div>
+                                        <div class="news2_list4">2016/10/15</div>
+                                    </li>
+                                    <li>
+                                        <div class="news2_list2">
+                                            <label><a href="#">News news2 news2 news2 news2 news2 news2 news2</a></label>
+                                        </div>
+                                        <div class="news2_list4">2016/10/15</div>
+                                    </li>
+                                    <li>
+                                        <div class="news2_list2">
+                                            <label><a href="#">News news2 news2 news2 news2 news2 news2 news2</a></label>
+                                        </div>
+                                        <div class="news2_list4">2016/10/15</div>
+                                    </li>
+                                    <li>
+                                        <div class="news2_list2">
+                                            <label><a href="#">News news2 news2 news2 news2 news2 news2 news2</a></label>
+                                        </div>
+                                        <div class="news2_list4">2016/10/15</div>
+                                    </li>
+                                    <li>
+                                        <div class="news2_list2">
+                                            <label><a href="#">News news2 news2 news2 news2 news2 news2 news2</a></label>
+                                        </div>
+                                        <div class="news2_list4">2016/10/15</div>
+                                    </li>
+                                    <li>
+                                        <div class="news2_list2">
+                                            <label><a href="#">News news2 news2 news2 news2 news2 news2 news2</a></label>
+                                        </div>
+                                        <div class="news2_list4">2016/10/15</div>
+                                    </li>
+                                    <li>
+                                        <div class="news2_list2">
+                                            <label><a href="#">News news2 news2 news2 news2 news2 news2 news2</a></label>
+                                        </div>
+                                        <div class="news2_list4">2016/10/15</div>
+                                    </li>
+                                    <li>
+                                        <div class="news2_list2">
+                                            <label><a href="#">News news2 news2 news2 news2 news2 news2 news2</a></label>
+                                        </div>
+                                        <div class="news2_list4">2016/10/15</div>
+                                    </li>
+                                    <div class="clear"></div>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="page">
+                            <div class="page_o"><a href="#"><img src="images/page_o.png" /></a></div>
+                            <div class="page_n"><a href="#"><img src="images/page_n.png" /></a></div>
+                        <div class="page_m">
+                                <div class="page_l"><a href="#">1</a></div>
+                                <div class="page_c"><a href="#" class="now">2</a></div>
+                                <div class="page_c"><a href="#">3</a></div>
+                                <div class="page_c">...</div>
+                          <div class="page_r"><a href="#">123</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- 版权信息 -->
+<div class="copyright">
+	<div class="copyright_in">
+    	<div class="bottom_logo">
+        	<a href="#"><img src="images/bottom_logo.png" /></a>
+            <em class="verticalAlign"></em>
+        </div>
+      <div class="bottom_font">
+        	<a href="#">Home</a>　　　　<a href="#">About</a>　　　　<a href="#">Products</a>　　　　<a href="#">Projects</a>　　　　<a href="#">News</a>　　　　<a href="#">Join us</a>　　　　<a href="#">Contact us</a><br/>
+        © 2013 Foshan Fotiles Ceramics Co.,Ltd.  QQ:<a class="gray" href="#">2534818703</a> </div>
+      <div class="bottom_qr">
+      	<img src="images/qr.jpg" width="96" height="96" />
+        <span>TITU-BTP</span>
+      </div>
+      <div class="bottom_qr">
+      	<img src="images/qr2.jpg" width="96" height="96" />
+        <span>TITU</span>
+      </div>
+  </div>
+</div>
+
+</body>
+</html>

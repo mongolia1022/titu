@@ -1,0 +1,1 @@
+<li><a href="<?php echo $data['linkAddress']; ?>" rel="nofllow" target="_blank" title="<?php echo $data['title']; ?>" ><img src="<?php echo $data['originalPic']; ?>" alt="" width="90" height="60" alt="<?php echo $data['title']; ?>" /></a></li>

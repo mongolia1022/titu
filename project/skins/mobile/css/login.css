@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* 
+ * 用户登陆页样式
+ */
+.login{ background:#fff; border:1px solid #dfdfe1; border-bottom-color:#bcbdbd; margin:10px auto; width:978px;}
+.login:after{ clear:both; content:"."; display:block; height:0; visibility:hidden;}
+
+.login-form{ padding:20px 20px 60px 20px; float:left; width:440px;}
+.login-form h1{ font-size:22px; font-family:"微软雅黑"; font-weight:normal;}
+
+.verifycode{}
+.verifycode img{ height:32px; vertical-align:middle;}
+.verifycode .fresh{ background:#f6f6f6; border:1px solid #aaa; display:inline-block; vertical-align:top; font-size:16px; font-family:"微软雅黑"; height:32px; padding:0px 6px;}
+
+.login-aux{ border-left:1px solid #eee; float:left; font-size:14px; margin:70px 0px 0px 0px; padding:0px 0px 0px 60px; width:400px;}
+.login-aux .reg-btns{ padding-top:10px;}
+.login-with-app{ margin-top:20px;}
+.login-with-app h6{ font-size:12px;}
+
+/* 
+ * 用户登陆页样式
+ */
+.reg{ background:#fff; border:1px solid #dfdfe1; border-bottom-color:#bcbdbd; margin:10px auto; width:978px;}
+.reg:after{ clear:both; content:"."; display:block; height:0; visibility:hidden;}
+.reg-form{ padding:20px 20px 60px 20px; float:left; width:560px;}
+.reg-form h1{ font-size:22px; font-family:"微软雅黑"; font-weight:normal;}
+.reg-aux{ border-left:1px solid #eee; float:left; font-size:14px; margin:70px 0px 0px 0px; padding:0px 0px 0px 60px; width:300px;}
+.reg-aux .login-btns{ padding-top:10px;}
+
+/* 
+ * 用户退出页面
+ */
+div.logout{ background:#fff; border:1px solid #dfdfe1; border-bottom-color:#bcbdbd; font-size:24px; font-weight:bold; margin:10px auto; width:978px; padding:100px 50px 150px 50px;}
+
+/*
+ * 找回密码
+ */
+.forget-password{ background:#fff; border:1px solid #dfdfe1; border-bottom-color:#bcbdbd; margin:10px auto; min-height:500px; width:978px;}
+.forget-password-section{ padding:40px 60px;}
+.forget-password-section h1{ font-size:24px; padding:0px 0px 20px 0px;}
+.forget-password-form{}
+.forget-password-form .control-group { margin:0px; padding:0px 0px 10px 0px;}
+.forget-password-form .control-group .control-label { color:#424242; display:block; float:none; font-size:14px; font-weight:bold; padding:0px; text-align:left;}
+.forget-password-form .control-group .control-label .t-normal{ color:#aaa; font-size:12px; margin-left:10px; font-weight:normal;}
+.forget-password-form .control-group .controls { padding:5px 0px 0px 0px; }
+.forget-password-form .control-group .controls .checkbox-line {display:block; padding:2px 0px 5px 0px;}
+.forget-password-form .control-group-button{ padding-top:5px;}
+
+.forget-password-form .verifycode{}
+.forget-password-form .verifycode img{ height:32px; vertical-align:middle;}
+.forget-password-form .verifycode .fresh{ background:#f6f6f6; border:1px solid #aaa; display:inline-block; vertical-align:top; font-size:16px; font-family:"微软雅黑"; height:32px; padding:0px 6px;}
+.forget-password-form input.text{}
+.forget-password-form input.text-verifycode{ width:106px;}
+
+.forget-password-form .success-tip{ font-size:14px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
