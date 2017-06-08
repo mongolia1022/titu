@@ -1,8 +1,12 @@
 <?php
    //产品详细页
 ?>
+<?php 
+//2011-09-10
+$data=$tag['data.row'];
+?>
 <!-- 放大镜 -->
-<link rel="stylesheet" type="text/css" href="css/magnifier.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $tag['path.skin']; ?>css/magnifier.css">
 <script type="text/javascript" class="library" src="<?php echo $tag['path.skin']; ?>js/jquery-1.8.2.min.js"></script>
 <script type="text/javascript" class="library" src="<?php echo $tag['path.skin']; ?>js/jquery.colorbox-min.js"></script>
 <script type="text/javascript" class="library" src="<?php echo $tag['path.skin']; ?>js/magnifier.js"></script>
@@ -11,7 +15,7 @@ $originalPic = explode('|',$data['originalPic']);
 $middlePic   = explode('|',$data['middlePic']);
 $smallPic    = explode('|',$data['smallPic']);
 $contents= explode('|',$data['content']);
-$details=$contents[0];
+$details=$contents[1];
 ?>
 <!--内页-->
 <div class="incenter">
@@ -79,8 +83,8 @@ $details=$contents[0];
             <div class="por_in2_slide">
               <div class="por_in2_slide_t">
                 	Similar products recommended
-                	<div class="por_slide_btn_r iconfont"  id="arrRright_01"><a href="###">&#xe615;</a></div>
-                	<div class="por_slide_btn_l iconfont" id="arrLeft_01"><a href="###">&#xe620;</a></div>
+                	<div class="por_slide_btn_r iconfont"  id="arrRright_01"><a href="#">&#xe615;</a></div>
+                	<div class="por_slide_btn_l iconfont" id="arrLeft_01"><a href="#">&#xe620;</a></div>
                 </div>
                 
                 <div class="por_in2_slide_b" id="arrCont_01">
@@ -91,7 +95,7 @@ $details=$contents[0];
                     </ul>
                 </div>
                 
-                <script language="javascript" src="js/common.js"></script>
+                <script language="javascript" src="<?php echo $tag['path.skin']; ?>js/common.js"></script>
 
 				<script language="javascript" type="text/javascript">
 					<!--//--><![CDATA[//><!--

@@ -1,8 +1,8 @@
-<?php 
-$originalPic = explode('|',$data['originalPic']);
+<?php
+//首页产品列表 
 ?>
 <li> 
-    <a href="<?php echo sys_push_one($data['spec'],1) ?>"><img src="<?php echo ispic($originalPic[0])?>"></a>
+    <a href="<?php echo sys_push_one($data['spec'],1) ?>"><img src="<?php echo ispic($data['originalPic'])?>"></a>
     <span><a href="<?php echo sys_push_one($data['spec'],1) ?>"><?php echo $data['title'];?></a></span>
     <label><?php echo sys_push_one($data['spec'],2) ?></label>
     <div class="idx_pro_scene">

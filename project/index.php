@@ -9,7 +9,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 header('Content-Type: text/html; charset=utf-8');
 define('THISISADMINI',true);
 $dirName=dirname(__FILE__);
-define('SITELANGUAGE','cn');
+define('SITELANGUAGE','en');
 if(empty($_SESSION[TB_PREFIX.'doclang'])){
 	$_SESSION[TB_PREFIX.'doclang'] = SITELANGUAGE;
 }

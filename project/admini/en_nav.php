@@ -5,15 +5,27 @@
 </ul></li>
 <li><a href='./index.php?p=22'>底部法律声明</a></li>
 </ul></li>
-<li><a href='./index.php?p=23'>About</a><ul><li><a href='./index.php?p=28'>hot news</a></li>
-<li><a href='./index.php?p=29'>service</a></li>
-<li><a href='./index.php?p=30'>projects</a></li>
+<li><a href='./index.php?p=23'>About</a><ul><li><a href='./index.php?p=29'>FAQ</a></li>
+<li><a href='./index.php?p=30'>Projects</a></li>
 </ul></li>
-<li><a href='./index.php?p=20'>Product</a><ul><li><a href='./index.php?p=24'>选择品类</a><ul><li><a href='./index.php?p=31'>品类1</a></li>
+<li><a href='./index.php?p=20'>Product</a><ul><li><a href='./index.php?p=24'>Type</a><ul><li><a href='./index.php?p=31'>Slim Tile</a></li>
+<li><a href='./index.php?p=36'>Rustic Tile</a></li>
+<li><a href='./index.php?p=37'>Full Glazed Porcelain Tile</a></li>
+<li><a href='./index.php?p=38'>Wall Tiles</a></li>
 </ul></li>
-<li><a href='./index.php?p=25'>选择系列</a></li>
-<li><a href='./index.php?p=26'>选择规格</a></li>
-<li><a href='./index.php?p=27'>选择空间</a></li>
+<li><a href='./index.php?p=25'>Surface</a><ul><li><a href='./index.php?p=35'>mat finish</a></li>
+<li><a href='./index.php?p=39'>polished finish</a></li>
+</ul></li>
+<li><a href='./index.php?p=26'>Size</a><ul><li><a href='./index.php?p=40'>900*1800mm</a></li>
+<li><a href='./index.php?p=43'>600*1200mm</a></li>
+<li><a href='./index.php?p=44'>450*900mm</a></li>
+<li><a href='./index.php?p=41'>600*600mm</a></li>
+<li><a href='./index.php?p=42'>300*600mm</a></li>
+</ul></li>
+<li><a href='./index.php?p=27'>Application</a><ul><li><a href='./index.php?p=45'>Exterior wall design</a></li>
+<li><a href='./index.php?p=46'>Interior</a></li>
+<li><a href='./index.php?p=47'>Bathroom</a></li>
+</ul></li>
 </ul></li>
 <li><a href='./index.php?p=32'>News</a></li>
 <li><a href='./index.php?p=34'>Join Us</a></li>

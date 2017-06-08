@@ -44,7 +44,7 @@
 			?>
                         </div>
                         <div class="page">
-                            <?php if($tag['pager.cn']) echo $tag['pager.cn']; ?>
+                            <?php if($tag['pager.en']) echo $tag['pager.en']; ?>
                         </div>
                     </div>
                 </div>

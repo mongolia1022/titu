@@ -44,9 +44,11 @@
         	<?php nav_main() //主导航调用的标签?>
         </ul>
     </div>
-  <div class="search_all">
-    	<div class="search_txt"><input id="txt_search" type="text"   value="Search what you want..."  onFocus="if(value==defaultValue){value='';this.style.color='#fff'}" onBlur="if(!value){value=defaultValue;this.style.color='#fff'}" style="color:#fff"></div>
-    	<div class="search_btn"><input type="image" src="images/search_btn.png" /></div>
+ <div class="search_all">
+      <form action="<?php echo $tag['form.action.search']; ?>" method="post">
+    	<div class="search_txt"><input name="keyword" id="txt_search" type="text"   value="Search what you want..."  onFocus="if(value==defaultValue){value='';this.style.color='#fff'}" onBlur="if(!value){value=defaultValue;this.style.color='#fff'}" style="color:#fff"></div>
+    	<div class="search_btn"><input type="image" src="<?php echo $tag['path.skin']; ?>images/search_btn.png" /></div>
+        </form>
     </div>
     <div class="cnen"><a href="#" class="now">EN</a> / <a href="#">CN</a></div>
 </div>
