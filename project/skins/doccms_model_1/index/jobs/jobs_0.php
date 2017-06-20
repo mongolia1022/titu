@@ -1,1 +1,0 @@
-<li>职位:<a href="<?php echo sys_href($channelId,'job',$data['id']); ?>"><?php echo $data['title']; ?></a></li>

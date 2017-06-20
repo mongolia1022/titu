@@ -156,19 +156,19 @@ $(function(){
     <div id="tablist1">
         <div class="idx_tab_b tablist fixon" >
             <ul>
-                <?php doc_product('15',1,0,0,0,0,true,false,'id',0)?>
+                <?php doc_product('15',6,0,0,0,0,true,false,'id',0)?>
                 <div class="clear"></div>
             </ul>
         </div>
         <div class="idx_tab_b tablist" >
             <ul>
-                <?php doc_product(16,1,0,0,0,0,true,false,'id',0) ?>
+                <?php doc_product(16,6,0,0,0,0,true,false,'id',0) ?>
                 <div class="clear"></div>
             </ul>
         </div>
         <div class="idx_tab_b tablist" >
             <ul>
-                <?php doc_product(17,1,0,0,0,0,true,false,'id',0) ?>
+                <?php doc_product(17,6,0,0,0,0,true,false,'id',0) ?>
                 <div class="clear"></div>
             </ul>
         </div>

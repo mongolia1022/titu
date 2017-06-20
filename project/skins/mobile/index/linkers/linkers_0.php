@@ -1,1 +1,0 @@
-<li><a href="<?php echo $data['linkAddress']; ?>" target="_blank" title="<?php echo $data['title']; ?>"><?php echo $data['title']; ?></a></li>

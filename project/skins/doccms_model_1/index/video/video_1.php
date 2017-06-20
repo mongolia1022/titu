@@ -1,1 +1,0 @@
-<li><a href="<?php echo sys_href($data['channelId'],'video',$data['id'])?>"><img src="<?php echo $data['picture'];?>" /><br /><?php echo $data['title'];?></a></li>
