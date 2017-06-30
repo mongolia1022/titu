@@ -44,7 +44,7 @@ define('WATERIMGS','/inc/img/system/doccms.png');
 //缩略图背景颜色设置
 define('paint_bgcolor','0xffffff');
 //分页样式
-define('PAGESTYLE','0'); 
+define('PAGESTYLE','1'); 
 //首页调用模板图片的默认尺寸
 define('articleWidth','140');
 define('articleHight','105');
@@ -59,8 +59,8 @@ define('pictureHight','105');
 define('moduleUserWidth','120');
 define('moduleUserHight','120');
 /*上传图片的大小设置*/
-define('productMiddlePicWidth','560');
-define('productMiddlePicHight','420');
+define('productMiddlePicWidth','526');
+define('productMiddlePicHight','526');
 define('productSmallPicWidth','288');
 define('productSmallPicHight','288');
 define('pictureMiddlePicWidth','560');
@@ -76,7 +76,7 @@ define('linkersHight','30');
 //内容页列表模块单页显示默认条数
 define('listCount','12');
 define('pictureCount','12');
-define('productCount','6');
+define('productCount','8');
 define('videoCount','12');
 define('guestbookCount','10');
 define('commentCount','6');

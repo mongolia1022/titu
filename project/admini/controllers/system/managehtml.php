@@ -205,7 +205,7 @@ function createHTML($html='html',$count=0,$id=0,$model=0,$action=0,$args=0)
 	}
 	$contents = file_get_contents($url);
 	
-	$powerby = '<!--本网站由稻壳企业建站系统生成 Power by DocCms x1.0&DoooC.com -->';
+	$powerby = '';
 	//页面缓存
 	$_html_root=ABSPATH.$html;
 

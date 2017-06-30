@@ -71,7 +71,7 @@ $go_404 = $tag['path.root'].'/404.html';
 //引入程序主文件
 $loadFile=array(
 	0=>'/inc/common.php',
-	1=>'/inc/class.pager.php',
+	1=>'/inc/class.pager_custom.php',
 	2=>'/content/common/common.php',
 	3=>'/inc/class.seo.php',
 	4=>'/config/doc-global.php',

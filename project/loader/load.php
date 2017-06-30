@@ -64,7 +64,7 @@ function HTML_load(){
 //页面加载
 function PAGE_load($include){
 	global $tag,$params,$htmlfile;
-	$powerby = urldecode('%3C%21--%E6%9C%AC%E7%BD%91%E7%AB%99%E7%94%B1%E7%A8%BB%E5%A3%B3%E4%BC%81%E4%B8%9A%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%E7%94%9F%E6%88%90+Power+by+DocCms+x1.0%26grysoft@qq.com+--%3E');
+	$powerby = '';//urldecode('%3C%21--%E6%9C%AC%E7%BD%91%E7%AB%99%E7%94%B1%E7%A8%BB%E5%A3%B3%E4%BC%81%E4%B8%9A%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%E7%94%9F%E6%88%90+Power+by+DocCms+x1.0%26grysoft@qq.com+--%3E');
 	require_once($include);
 	echo $powerby;
 }

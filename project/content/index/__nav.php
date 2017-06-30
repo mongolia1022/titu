@@ -51,7 +51,7 @@ function nav_sub($id=0,$style=0,$expand=1,$n=0)
 			$str='';//重置
 			if($expand)
 			{
-				for($s=0;$s<$menus[$sid]['deep']-1;$s++)$str.='&nbsp;&nbsp;&nbsp;&nbsp;';
+				for($s=0;$s<$menus[$sid]['deep']-1;$s++)$str.='';
 				$pic = '<img src="'.$tag['path.root'].'/inc/img/nav/expand-0.gif" border="0" align="absmiddle"/>';
 				$pic = isset($subs[$data['id']])&&!$expand?$pic:''; 
 			}

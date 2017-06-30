@@ -69,10 +69,6 @@ var swiper1 = new Swiper('.swiper1', {
 	autoplayDisableOnInteraction: false,
 	effect: 'fade'
 });
-$(function(){
-	var w_h = $(window).height();
-	$('.swiper1').height(w_h)
-})
 </script>
 
 <!-- 首页产品推荐 -->
@@ -156,19 +152,19 @@ $(function(){
     <div id="tablist1">
         <div class="idx_tab_b tablist fixon" >
             <ul>
-                <?php doc_product('15',6,0,0,0,0,true,false,'id',0)?>
+                <?php doc_product('15',8,0,0,0,0,true,false,'id',0)?>
                 <div class="clear"></div>
             </ul>
         </div>
         <div class="idx_tab_b tablist" >
             <ul>
-                <?php doc_product(16,6,0,0,0,0,true,false,'id',0) ?>
+                <?php doc_product(16,8,0,0,0,0,true,false,'id',0) ?>
                 <div class="clear"></div>
             </ul>
         </div>
         <div class="idx_tab_b tablist" >
             <ul>
-                <?php doc_product(17,6,0,0,0,0,true,false,'id',0) ?>
+                <?php doc_product(17,8,0,0,0,0,true,false,'id',0) ?>
                 <div class="clear"></div>
             </ul>
         </div>
